@@ -1,3 +1,6 @@
+
+/*GERAL*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +14,16 @@ a {
     text-decoration: none;
 }
 
-.nav-primary {
+/*NAVBAR*/
+.logo {
+    width: 35px;
+}
+
+.navbar__title {
+    font-size: 30px;
+}
+
+.nav__primary {
     display: flex;
     justify-content: flex-end;
 }
@@ -29,11 +41,17 @@ a {
     color:rgba(0, 0, 0, 0.329);
 }
 
+/*HEADER*/
+
+.text__banner{
+    color: #074582;
+    z-index: 99;
+}
+
 .banner__home {
     background-image: url("../img/banner1.png");
     background-size: cover;
     min-height: 80vh;
- 
 }
 
 h1{
@@ -150,7 +168,8 @@ h2 {
 
 .contato h3{
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
+    color: #F6F7FC;
 }
 
 .contato__input{
@@ -176,6 +195,13 @@ h2 {
     background-color: #23919B99;
     color: #F6F7FC;
     /* border: 1px solid #707070; */
+}
+
+hr{
+    height: 2px;
+    background: #F6F7FC;
+    width: 80px;
+    margin-left: 449px;
 }
 
 .footer__email{
