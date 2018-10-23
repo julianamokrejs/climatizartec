@@ -16,7 +16,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
             <img class="logo img-fluid m-2" src="img/logo.png">
             <a class="navbar__title navbar-brand text-white text-center" href="#">Climatizartec</a>
@@ -30,32 +30,32 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link" href="#quemSomos">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
+                        <a class="nav-link" href="#servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- BANNER -->
+    <!-- BANNER/HEADER -->
     <header class="banner__home d-flex align-items-end">
         <div class="container">
-            <div class="row__banner ">
+            <div class="row__banner">
                 <h1 class="text__banner text-white"> O clima perfeito para a <span class="rotate text__banner"> sua
                         casa, sua empresa
                     </span> </h1>
 
-                <div class="col-sm-6 text-center">
-                    <a href="" class="btn btn btn-md m-5">Solicitar orçamento</a>
+                <div class="col-sm-6 p-0">
+                    <a href="" class="btn btn__banner btn-md mb-5 mt-2">Solicitar orçamento</a>
                 </div>
             </div>
         </div>
@@ -76,28 +76,19 @@
 
                     <!-- CAROUSEL ITEMS -->
                     <div class="carousel-inner">
-
                         <div class="carousel-item active text-center">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/carrier-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/bosch-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
-                                        <img src="img/electrolux-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
+                                        <img src="img/electrolux-01.png" alt="Image" style="max-width:20vh;">          
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/consul-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                             </div>
                             <!-- ROW-->
@@ -106,24 +97,16 @@
                         <div class="carousel-item text-center">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/rheem-01.png" alt="Image" style="max-width:10vh;">
-                                    </a>
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/midea-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/lg-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                                 <div class="col-3 col-sm-3 col-md-3">
-                                    <a href="#">
                                         <img src="img/samsung-01.png" alt="Image" style="max-width:20vh;">
-                                    </a>
                                 </div>
                             </div>
                             <!--ROW-->
@@ -191,10 +174,10 @@
             </div>
         </div>
     </section>
-    
+
     <!-- ABOUT -->
     <div class="about__bg bg-light">
-        <section class="about p-5">
+        <section id="quemSomos" class="about p-5">
 
             <div class="container">
                 <div>
@@ -217,44 +200,41 @@
     </div>
     </div>
 
-    <!-- CARDS -->
-    <section class="cards">
+     <!-- CARDS -->
+     <section id="servicos" class="cards">
             <div class="container">
                 <div>
-                    <h2 class="section__title">O que oferecemos</h2>
+                    <h2 class="section__title mt-5">O que oferecemos</h2>
                     <hr>
                 </div>
-                <div class="row">
-                    <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Instalação</h5>
-                            <p class="card-text">A instalação do ar condicionado sempre deve ser realizada por
+                <div class="row mt-5">
+                   
+                    <div class="card text-center card-body col-lg-4 d-flex align-items-center mb-5">
+                            <h5 class="card-title mt-2">Instalação</h5>
+                            <p class="card-text mt-3">A instalação do ar condicionado sempre deve ser realizada por
                                 profissionais
                                 especializados, para que estes executem os serviços dentro dos padrões definidos pelos
                                 fabricantes,
                                 garantindo a segurança da instalação e o máximo desempenho técnico do produto.</p>
-                            <button type="button" class="btn btn-outline-dark">Mais informações</button>
-                        </div>
+                            <a href="#" target="_blank" class="btn btn-outline-info m-3">Mais informações</a>
                     </div>
-    
-                    <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Manutenção e Limpeza</h5>
-                            <p class="card-text">As manutenções adequadas ajustam os ar condicionado, além de reduzir o
+                    <div class="card text-center card-body col-lg-4 d-flex align-items-center mb-5">
+                       
+                            <h5 class="card-title mt-2">Manutenção e Limpeza</h5>
+                            <p class="card-text mt-3">As manutenções adequadas ajustam os ar condicionado, além de reduzir o
                                 nível
                                 de poluentes em um ambiente climatizado, consentindo ainda aumentar a vida útil dos
                                 equipamentos
                                 e a diminuição do consumo de energia.
                             </p>
-                            <button type="button" class="btn btn-outline-dark">Mais informações</button>
-                        </div>
+                            <a href="#" target="_blank"  class="btn btn-outline-info m-3">Mais informações</a>
+                       
                     </div>
                 </div>
         </section>
-    
 
     <!-- CONTATO -->
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="container">
             <div class="p-5">
                 <div>
@@ -265,7 +245,7 @@
                 <div class="d-flex justify-content-center">
                     <form>
                         <input class="contato__input pl-4" type="text" placeholder="Seu e-mail">
-                        <a href="#" class="contato__btn">Cadastrar</a>
+                        <a href="#" class="btn-info contato__btn ml-3">Cadastrar</a>
                     </form>
                 </div>
             </div>
