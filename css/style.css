@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*NAVBAR*/
 .logo {
     width: 35px;
@@ -34,6 +38,7 @@ a {
 
 .nav > li > a{
     color:rgb(255, 255, 255);
+    text-transform: uppercase;
 }
 
 
@@ -45,27 +50,31 @@ a {
 
 .text__banner{
     color: #074582;
-    z-index: 99;
+    font-size: 42px;
+    font-weight: 600;
 }
 
 .banner__home {
     background-image: url("../img/banner1.png");
     background-size: cover;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
-h1{
-    font-size: 42px;
-    font-weight: 600;
-}
-
-.btn{
-    background:linear-gradient(180deg, rgba(249,241,241,1) 0%, rgba(249,244,245,1) 35%, rgba(249,250,252,1) 100%);
+.btn {
+    box-shadow: 1px 1px #86c5d4;
+    border: 2px solid #f6f7fc;
+    background-color: #ffffff;
     border-radius: 4px;
     color: #074582;
     font-weight: bold;
     font-size: 20px;
-}
+ }
+
+ .btn__banner:hover {
+     background-color: rgb(226, 237, 238);
+ }
+
+
 
 /* .blog .carousel-indicators {
 	left: 0;
@@ -86,14 +95,17 @@ h1{
     background: #707070;
 } */
 
+
+/*CAROUSEL*/
+
 .carousel {
-    height: 20vh;
-    margin-bottom: 4%;
+    height: 15vh;
+    /* margin-bottom: 2%; */
     justify-content: center;
 }
 
 .row {
-    margin-top: 4%;
+    margin-top: 2%;
     justify-content: space-around;
 }
 
@@ -101,6 +113,8 @@ h1{
     color: #074582;
     font-weight: 700;
 }
+
+/*CARDS*/
 
 .cards hr {
     height: 2px;
@@ -129,10 +143,18 @@ h1{
     font-size: 16px;
 }
 
+.btn-outline-info {
+    width: 50%;
+    font-size: 18px;
+}
+
+/*ABOUT*/
+
 .about{
     padding: 50px;
     font-size: 17px;
 }
+
 
 .about__imagem img {
     -webkit-box-shadow: -18px -18px 0px 2px rgba(35,145,155,1);
@@ -162,6 +184,9 @@ h2 {
     height: auto;
 }
 
+
+/*CONTATO*/
+
 .contato{
     background-color: #50a2d1;
 }
@@ -183,13 +208,15 @@ h2 {
 
 .contato__btn{
     color: #074582;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     border-radius: 5px;
     border: 2px solid #f6f7fc;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 8px;
 }
+
+/*FOOTER*/
 
 .footer{
     background-color: #23919B99;
