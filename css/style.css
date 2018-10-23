@@ -263,3 +263,37 @@ h2{
 }
 
 }
+@media (min-width: 420px){
+
+    .card-body {
+        margin-bottom: 10px;
+    }
+    
+    .navbar__title{
+        font-size: 22px;
+    }
+    
+    .row__banner{
+        margin-top: 100px;
+    }
+    
+    .contato h3 {
+            font-size: 18px;
+    }
+    
+    h2{
+        font-size: 1.8rem;
+    }
+    
+    .contato__input {
+        width: 375px;
+        height: 40px;
+        padding-top: 4px;
+        margin-bottom: 15px;
+    }
+    
+    .contato__btn{
+        margin-left: 8rem;
+    }
+    
+    }
