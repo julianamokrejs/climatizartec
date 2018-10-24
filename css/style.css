@@ -9,9 +9,14 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
+    color: #50a2d1;
+    font-size: 18px;
 }
 
 html {
@@ -33,6 +38,7 @@ html {
 }
 
 .navbar {
+    z-index: 99999999;
     background-color: #23919B;
 }
 
@@ -224,12 +230,13 @@ h2 {
     /* border: 1px solid #707070; */
 }
 
-hr{
+hr {
     height: 2px;
     background: #F6F7FC;
     width: 80px;
     margin-left: 449px;
 }
+
 
 .footer__email{
     font-size: 22px;
@@ -254,7 +261,79 @@ hr{
     color: #0764F3;
 }
 
-@media (min-width: 420px){
+ /* install */
+ .banner__install {
+    background-image: url("../img/banner2.png");
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+
+header{
+    z-index: 9999;
+}
+
+.install hr {
+    height: 2px;
+    background:#074582;
+    width: 80px;
+    margin-left: 0;
+}
+
+.snowflakes {
+    color: #fff;
+    font-size: 4rem;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+    height: 50vh;
+    width: 77%;
+    margin-top: 0;
+  }
+  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position: absolute;top:-30%; z-index: -10; -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:50%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:65%;-webkit-animation-delay:1s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:40%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:85%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:65%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:45%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:65%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:85%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+.snow {
+    font-size: 2.5rem;
+}
+/* install*/
+
+ /* manutencao */
+ .banner__manutencao {
+    background-image: url("../img/manutencao.png");
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+
+header{
+    z-index: 9999;
+}
+
+.manutencao hr {
+    height: 2px;
+    background:#074582;
+    width: 80px;
+    margin-left: 0;
+}
+
+.snowflakes {
+    color: #fff;
+    font-size: 4rem;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+    height: 50vh;
+    width: 77%;
+    margin-top: 0;
+  }
+  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position: absolute;top:-30%; z-index: -10; -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:50%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:65%;-webkit-animation-delay:1s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:40%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:85%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:65%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:45%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:65%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:85%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+.snow {
+    font-size: 2.5rem;
+}
+/* manutencao */
+
+@media (max-width: 450px) {
 
     .card-body {
         margin-bottom: 10px;
@@ -269,13 +348,17 @@ hr{
     }
     
     .contato h3 {
-            font-size: 18px;
+        font-size: 18px;
+    }
+    .contato__mobile{
+        text-align: center;
     }
     
     h2{
         font-size: 1.8rem;
     }
-    
+
+ 
     .contato__input {
         width: 375px;
         height: 40px;
@@ -286,5 +369,14 @@ hr{
     .contato__btn{
         margin-left: 8rem;
     }
-    
+
+    .footer__mobile{
+        text-align: center;
     }
+    .hr__footer {
+        margin-left: 90px;
+    }
+
+    }
+
+   
