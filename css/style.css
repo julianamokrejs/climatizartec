@@ -13,6 +13,12 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: #50a2d1;
+    font-size: 18px;
+}
+
 /*NAVBAR*/
 .logo {
     width: 35px;
