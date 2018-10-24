@@ -1,0 +1,130 @@
+@media (max-width: 1024px){
+
+    /*NAV*/
+
+    .nav-link{
+        font-size: 16px;
+    }
+
+
+    /*ABOUT*/
+
+    .about__texto{
+        font-size: 15px;
+    }
+
+    /*CARDS*/
+
+    #servicos hr{
+        margin-left: 17px;
+    }
+
+    #servicos h2{
+        padding-left: 17px;
+    }
+
+    .card-title {
+        font-size: 26px;
+        padding: 10px 0 0 10px;
+    }
+
+    .btn-outline-info {
+        font-size: 14px;
+    }
+
+
+    /*CONTATO*/
+
+    .contato__btn{
+        font-size: 20px;
+    }
+
+
+    /*FOOTER*/
+
+    .footer__email{
+        font-size: 20px;
+    }
+
+    .footer__p{
+        font-size: 18px;
+    }
+
+    .footer__num{
+        font-size: 18px;
+    }
+
+    hr {
+        margin-left: 369px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    /*ABOUT*/
+
+    .about__texto{
+        font-size: 15px;
+    }
+
+    /*CARDS*/
+
+    #servicos hr{
+        margin-left: 24px;
+    }
+
+    #servicos h2{
+        padding-left: 24px;
+    }
+
+    .card-title {
+        font-size: 26px;
+        padding: 10px 0 0 10px;
+    }
+
+    .btn-outline-info {
+        font-size: 18px;
+    }
+
+    #servicos .row{
+        margin: 0 150px;
+    }
+
+
+    /*CONTATO*/
+
+    .contato__btn{
+        font-size: 18px;
+    }
+
+
+    /*FOOTER*/
+
+    .footer__contato{
+        padding: 0 150px;
+    }
+
+    .footer__contato>.footer__p{
+        justify-content: space-between;
+    }
+
+    .footer__email{
+        font-size: 20px;
+    }
+
+    .footer__p{
+        display: flex;
+        font-size: 18px;
+    }
+
+    .footer__num{
+        font-size: 18px;
+    }
+
+    hr {
+        margin-left: 250px;
+    }
+
+}
