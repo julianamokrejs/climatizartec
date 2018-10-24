@@ -9,8 +9,11 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 a {
@@ -260,8 +263,9 @@ hr {
     color: #0764F3;
 }
 
- /* install */
- .banner__install {
+
+/* install */
+.banner__install {
     background-image: url("../img/banner2.png");
     background-size: cover;
     min-height: 70vh;
@@ -296,8 +300,8 @@ header{
 }
 /* install*/
 
- /* manutencao */
- .banner__manutencao {
+/* manutencao */
+.banner__manutencao {
     background-image: url("../img/manutencao.png");
     background-size: cover;
     min-height: 70vh;
@@ -330,6 +334,7 @@ header{
 .snow {
     font-size: 2.5rem;
 }
+
 /* manutencao */
 
 @media (min-width: 420px){
@@ -347,7 +352,7 @@ header{
     }
     
     .contato h3 {
-            font-size: 18px;
+        font-size: 18px;
     }
     
     h2{
@@ -365,6 +370,4 @@ header{
         margin-left: 8rem;
     }
     
-    }
-
-   
+}
