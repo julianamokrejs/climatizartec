@@ -51,6 +51,24 @@ a {
     color:rgba(0, 0, 0, 0.329);
 }
 
+.nav > li > a:hover{
+    color:rgba(0, 0, 0, 0.329);
+}
+
+
+.hamb {
+    position: absolute;
+    background-color: #23919B;
+    top: 67px;
+    padding: 0 20px;
+    width: 140px;
+    right: .5px;
+} 
+
+.hamb a{
+    color: white;
+}
+
 /*HEADER*/
 
 .text__banner{
