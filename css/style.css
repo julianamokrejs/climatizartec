@@ -283,6 +283,9 @@ hr {
     color: #0764F3;
 }
 
+.footer__contato-mobile {
+    display: none;
+}
 
 /* INSTALL */
 
@@ -519,6 +522,10 @@ header{
         margin-left: 250px;
     }
 
+    .footer__contato-mobile {
+        display: inline;
+    }
+
 }
 
 @media (max-width: 421px) {
@@ -618,6 +625,9 @@ header{
         margin-left: 99px;
     }
 
+    .footer__contato-mobile {
+        display: inline;
+    }
 }
 
    
