@@ -415,6 +415,8 @@ header{
 
     /*FOOTER*/
 
+    
+
     .footer__email{
         font-size: 20px;
     }
@@ -491,6 +493,10 @@ header{
 
 
     /*FOOTER*/
+
+    .footer {
+        height: 440px;
+    }
 
     .footer__contato{
         padding: 0 100px;
