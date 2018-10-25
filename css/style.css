@@ -365,7 +365,6 @@ header{
     }
 
     .nav__primary{
-    position: absolute;
     right: 0px;
     top: 60px;
     text-align: right;
@@ -430,10 +429,19 @@ header{
 
 @media (max-width: 768px){
 
+
+    .nav__primary{
+        position: absolute;
+    }
+
     /*ABOUT*/
 
     .about__texto{
         font-size: 15px;
+    }
+
+    .about{
+    margin-top: 50px;
     }
 
     /*CARDS*/
@@ -461,6 +469,10 @@ header{
 
 
     /*CONTATO*/
+
+    .contato__input{
+    width: 470px;
+    }
 
     .contato__btn{
         font-size: 18px;
@@ -498,8 +510,6 @@ header{
 
 @media (max-width: 421px) {
 
-
-
     .about {
     margin-top: 45px;
     padding-top: 30px;
@@ -518,7 +528,7 @@ header{
 
     .card-body {
         margin-bottom: 10px;
-        width: 400px;
+        min-width: 400px;
     }
     
     .navbar__title{
@@ -564,6 +574,10 @@ header{
         margin-left: 8rem;
     }
 
+    .footer__contato{
+        padding: 0;
+    }
+    
     .footer__mobile{
         text-align: center;
     }
