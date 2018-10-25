@@ -27,32 +27,6 @@ html {
 }
 
 /*NAVBAR*/
-/* .logo {
-    width: 35px;
-}
-
-.navbar__title {
-    font-size: 30px;
-}
-
-.nav__primary {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.navbar {
-    z-index: 99999999;
-    background-color: #23919B;
-}
-
-.nav > li > a{
-    color:rgb(255, 255, 255);
-    text-transform: uppercase;
-}
-
-.nav > li > a:hover{
-    color:rgba(0, 0, 0, 0.329);
-} */
 
 .logo {
     width: 35px;
@@ -103,7 +77,6 @@ html {
 /*HEADER*/
 
 .text__banner{
-    color: #074582;
     font-size: 42px;
     font-weight: 600;
     width: 400px;
@@ -135,27 +108,6 @@ html {
  .btn__banner:hover {
      background-color: rgb(226, 237, 238);
  }
-
-
-
-/* .blog .carousel-indicators {
-	left: 0;
-	top: auto;
-    bottom: -70px;
-
-} */
-
-/* The colour of the indicators */
-/* .blog .carousel-indicators li {
-    background: #a3a3a3;
-    border-radius: 50%;
-    width: 8px;
-    height: 8px;
-} */
-
-/* .blog .carousel-indicators .active {
-    background: #707070;
-} */
 
 
 /*CAROUSEL*/
@@ -327,7 +279,8 @@ hr {
 }
 
 
-/* install */
+/* INSTALL */
+
 .banner__install {
     background-image: url("../img/banner2.png");
     background-size: cover;
@@ -361,9 +314,10 @@ header{
 .snow {
     font-size: 3rem;
 }
-/* install*/
+/*INSTALL*/
 
-/* manutencao */
+/*MANUTENÇÃO*/
+
 .banner__manutencao {
     background-image: url("../img/manutencao.png");
     background-size: cover;
@@ -398,7 +352,11 @@ header{
     font-size: 2.5rem;
 }
 
-/* manutencao */
+/* MANUTENÇÃO */
+
+
+/*////// MEDIA QUERY //////*/
+
 
 @media (max-width: 1024px){
 
