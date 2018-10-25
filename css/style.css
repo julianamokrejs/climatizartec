@@ -120,6 +120,11 @@ html {
 
 }
 
+.carousel__titulo{
+    color: #074582;
+    text-align: center;
+}
+
 .row {
     margin-top: 2%;
 
@@ -278,6 +283,9 @@ hr {
     color: #0764F3;
 }
 
+.footer__contato-mobile {
+    display: none;
+}
 
 /* INSTALL */
 
@@ -355,7 +363,6 @@ header{
 
 /*////// MEDIA QUERY //////*/
 
-
 @media (max-width: 1024px){
 
     /*NAV*/
@@ -365,7 +372,6 @@ header{
     }
 
     .nav__primary{
-    position: absolute;
     right: 0px;
     top: 60px;
     text-align: right;
@@ -415,6 +421,7 @@ header{
 
     .footer__p{
         font-size: 18px;
+        padding: 0;
     }
 
     .footer__num{
@@ -430,10 +437,19 @@ header{
 
 @media (max-width: 768px){
 
+
+    .nav__primary{
+        position: absolute;
+    }
+
     /*ABOUT*/
 
     .about__texto{
         font-size: 15px;
+    }
+
+    .about{
+    margin-top: 50px;
     }
 
     /*CARDS*/
@@ -459,8 +475,15 @@ header{
         margin: 0 150px;
     }
 
+    .col__snow{
+        display: none;
+    }
 
     /*CONTATO*/
+
+    .contato__input{
+    width: 470px;
+    }
 
     .contato__btn{
         font-size: 18px;
@@ -470,7 +493,7 @@ header{
     /*FOOTER*/
 
     .footer__contato{
-        padding: 0 150px;
+        padding: 0 100px;
     }
 
     .footer__contato>.footer__p{
@@ -486,6 +509,11 @@ header{
         font-size: 18px;
     }
 
+    .footer__p-end{
+        flex-direction: column;
+        text-align: left;
+    }
+
     .footer__num{
         font-size: 18px;
     }
@@ -494,11 +522,13 @@ header{
         margin-left: 250px;
     }
 
+    .footer__contato-mobile {
+        display: inline;
+    }
+
 }
 
 @media (max-width: 421px) {
-
-
 
     .about {
     margin-top: 45px;
@@ -518,7 +548,7 @@ header{
 
     .card-body {
         margin-bottom: 10px;
-        width: 400px;
+        min-width: 400px;
     }
     
     .navbar__title{
@@ -542,6 +572,20 @@ header{
         margin-top: 100px;
     }
     
+    .col__snow{
+        display: none;
+    }
+
+    .text__banner{
+        font-size: 35px;
+    }
+
+    .text__banner-instalacao,
+    .text__banner-manutencao{
+        width: 400px;
+        font-size: 35px;
+    }
+
     .contato h3 {
         font-size: 18px;
     }
@@ -564,13 +608,26 @@ header{
         margin-left: 8rem;
     }
 
+    .footer__contato{
+        padding: 0 20px;
+    }
+    
     .footer__mobile{
         text-align: center;
     }
-    .hr__footer {
-        margin-left: 90px;
+
+    .footer__p-end{
+        flex-direction: column;
+        text-align: left;
     }
 
+    .hr__footer {
+        margin-left: 99px;
     }
+
+    .footer__contato-mobile {
+        display: inline;
+    }
+}
 
    
