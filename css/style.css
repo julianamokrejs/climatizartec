@@ -120,6 +120,11 @@ html {
 
 }
 
+.carousel__titulo{
+    color: #074582;
+    text-align: center;
+}
+
 .row {
     margin-top: 2%;
 
@@ -467,6 +472,9 @@ header{
         margin: 0 150px;
     }
 
+    .col__snow{
+        display: none;
+    }
 
     /*CONTATO*/
 
@@ -496,6 +504,11 @@ header{
     .footer__p{
         display: flex;
         font-size: 18px;
+    }
+
+    .footer__p-end{
+        flex-direction: column;
+        text-align: left;
     }
 
     .footer__num{
@@ -552,6 +565,20 @@ header{
         margin-top: 100px;
     }
     
+    .col__snow{
+        display: none;
+    }
+
+    .text__banner{
+        font-size: 35px;
+    }
+
+    .text__banner-instalacao,
+    .text__banner-manutencao{
+        width: 400px;
+        font-size: 35px;
+    }
+
     .contato h3 {
         font-size: 18px;
     }
@@ -581,10 +608,16 @@ header{
     .footer__mobile{
         text-align: center;
     }
-    .hr__footer {
-        margin-left: 90px;
+
+    .footer__p-end{
+        flex-direction: column;
+        text-align: left;
     }
 
+    .hr__footer {
+        margin-left: 99px;
     }
+
+}
 
    
