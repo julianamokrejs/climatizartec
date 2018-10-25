@@ -9,8 +9,11 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 a {
@@ -78,12 +81,24 @@ html {
     color:rgba(0, 0, 0, 0.329);
 }
 
-.hamb {
-    display: none;
+
+.nav > li > a:hover{
+    color:rgba(0, 0, 0, 0.329);
 }
 
 
+.hamb {
+    position: absolute;
+    background-color: #23919B;
+    top: 67px;
+    padding: 0 20px;
+    width: 140px;
+    right: .5px;
+} 
 
+.hamb a{
+    color: white;
+}
 
 /*HEADER*/
 
@@ -91,10 +106,18 @@ html {
     color: #074582;
     font-size: 42px;
     font-weight: 600;
+    width: 400px;
+}
+
+.text__banner-manutencao, .text__banner-instalacao{
+    color: #074582;
+    font-size: 42px;
+    font-weight: 600;
+    width: 750px;
 }
 
 .banner__home {
-    background-image: url("../img/banner1.png");
+    background-image: url("../img/banner1b-01.png");
     background-size: cover;
     min-height: 70vh;
 }
@@ -303,8 +326,9 @@ hr {
     color: #0764F3;
 }
 
- /* install */
- .banner__install {
+
+/* install */
+.banner__install {
     background-image: url("../img/banner2.png");
     background-size: cover;
     min-height: 70vh;
@@ -339,8 +363,8 @@ header{
 }
 /* install*/
 
- /* manutencao */
- .banner__manutencao {
+/* manutencao */
+.banner__manutencao {
     background-image: url("../img/manutencao.png");
     background-size: cover;
     min-height: 70vh;
@@ -373,9 +397,152 @@ header{
 .snow {
     font-size: 2.5rem;
 }
+
 /* manutencao */
 
-@media (max-width: 450px) {
+@media (max-width: 1024px){
+
+    /*NAV*/
+
+    .nav-link{
+        font-size: 16px;
+    }
+
+    .nav__primary{
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    text-align: right;
+    background: rgb(25, 145, 156);
+    padding: 0px 2rem;
+    }
+
+
+    /*ABOUT*/
+
+    .about__texto{
+        font-size: 15px;
+    }
+
+    /*CARDS*/
+
+    #servicos hr{
+        margin-left: 17px;
+    }
+
+    #servicos h2{
+        padding-left: 17px;
+    }
+
+    .card-title {
+        font-size: 26px;
+        padding: 10px 0 0 10px;
+    }
+
+    .btn-outline-info {
+        font-size: 14px;
+    }
+
+
+    /*CONTATO*/
+
+    .contato__btn{
+        font-size: 20px;
+    }
+
+
+    /*FOOTER*/
+
+    .footer__email{
+        font-size: 20px;
+    }
+
+    .footer__p{
+        font-size: 18px;
+    }
+
+    .footer__num{
+        font-size: 18px;
+    }
+
+    hr {
+        margin-left: 369px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    /*ABOUT*/
+
+    .about__texto{
+        font-size: 15px;
+    }
+
+    /*CARDS*/
+
+    #servicos hr{
+        margin-left: 24px;
+    }
+
+    #servicos h2{
+        padding-left: 24px;
+    }
+
+    .card-title {
+        font-size: 26px;
+        padding: 10px 0 0 10px;
+    }
+
+    .btn-outline-info {
+        font-size: 18px;
+    }
+
+    #servicos .row{
+        margin: 0 150px;
+    }
+
+
+    /*CONTATO*/
+
+    .contato__btn{
+        font-size: 18px;
+    }
+
+
+    /*FOOTER*/
+
+    .footer__contato{
+        padding: 0 150px;
+    }
+
+    .footer__contato>.footer__p{
+        justify-content: space-between;
+    }
+
+    .footer__email{
+        font-size: 20px;
+    }
+
+    .footer__p{
+        display: flex;
+        font-size: 18px;
+    }
+
+    .footer__num{
+        font-size: 18px;
+    }
+
+    hr {
+        margin-left: 250px;
+    }
+
+}
+
+@media (max-width: 421px) {
+
+
 
     .about {
     margin-top: 45px;
@@ -395,7 +562,7 @@ header{
 
     .card-body {
         margin-bottom: 10px;
-        max-width: 400px;
+        width: 400px;
     }
     
     .navbar__title{
