@@ -360,7 +360,6 @@ header{
 
 /*////// MEDIA QUERY //////*/
 
-
 @media (max-width: 1024px){
 
     /*NAV*/
@@ -419,6 +418,7 @@ header{
 
     .footer__p{
         font-size: 18px;
+        padding: 0;
     }
 
     .footer__num{
@@ -490,7 +490,7 @@ header{
     /*FOOTER*/
 
     .footer__contato{
-        padding: 0 150px;
+        padding: 0 100px;
     }
 
     .footer__contato>.footer__p{
@@ -602,7 +602,7 @@ header{
     }
 
     .footer__contato{
-        padding: 0;
+        padding: 0 20px;
     }
     
     .footer__mobile{
